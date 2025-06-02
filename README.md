@@ -1,3 +1,63 @@
-# Predicting Survival in the Titanic Data Set 
+# Titanic Survival Prediction – MLOps Project
 
-In this prediction, decision tree is used to make predictions about the Titanic data  set from Kaggle. This data set provides information on the Titanic passengers and can be used to predict whether a passenger survived or  not. 
+## Overview
+This project is a machine learning pipeline to predict passenger survival on the Titanic using structured tabular data. It serves as a foundational exercise for learning key MLOps concepts such as reproducible project setup, data preprocessing, feature engineering, model training, and versioning.
+
+## Objective
+- Explore and analyze the Titanic dataset
+- Handle missing data and engineer useful features
+- Train a basic classification model
+- Set up modular code and folder structure following MLOps best practices
+
+## Project Structure
+```
+titanic-mlops/
+│
+├── data/                  # Raw and processed data
+├── notebooks/             # Jupyter notebooks for exploration
+├── src/                   # Reusable code modules
+├── models/                # Saved model artifacts
+├── reports/               # EDA results, charts
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+└── .gitignore             # Ignored files
+```
+
+## Technologies Used
+- Python 3.10+
+- Pandas, NumPy, Scikit-learn
+- Seaborn, Matplotlib
+- Jupyter Notebooks
+- Git
+
+## Setup Instructions
+```bash
+# Clone the repo
+git clone https://github.com/your-username/titanic-mlops.git
+cd titanic-mlops
+
+# Set up virtual environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## Project Milestones
+| Week   | Goal                                              |
+| ------ | ------------------------------------------------- |
+| Week 1 | EDA + Feature Engineering + Missing Data Handling |
+| Week 2 | Model Training and Evaluation                     |
+| Week 3 | Refactoring into reusable pipelines               |
+| Week 4 | Deployment and CI/CD simulation                   |
+
+## Resources Used
+- [Kaggle Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
+- [MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp)
+- [Hands-On ML Book (Aurélien Géron)](https://github.com/ageron/handson-ml)
+
+## ✅ Current Status
+✔️ Project initialized  
+✔️ Data loaded and explored  
+🛠️ Feature engineering in progress
