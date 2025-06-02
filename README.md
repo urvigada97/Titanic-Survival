@@ -61,3 +61,9 @@ pip install -r requirements.txt
 ✔️ Project initialized  
 ✔️ Data loaded and explored  
 🛠️ Feature engineering in progress
+
+## 📘 What You'll Learn
+- Structuring ML projects for reproducibility
+- Exploratory data analysis & missing value handling
+- Preparing for scalable feature engineering
+- Laying the foundation for CI/CD in ML
